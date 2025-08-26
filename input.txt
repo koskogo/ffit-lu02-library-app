@@ -1,0 +1,2 @@
+importbooks data/books.tsv 
+quit 

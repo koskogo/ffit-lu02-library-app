@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group = 'ch.bzz'
@@ -10,7 +11,15 @@ repositories {
 }
 
 dependencies {
+    // dependencies for the application
+    implementation 'org.postgresql:postgresql:42.7.3'
+    
+    // dependencies for testing (optional)
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+
+application {
+    mainClass = 'ch.bzz.LibraryAppMain'
 }
 
 test {
