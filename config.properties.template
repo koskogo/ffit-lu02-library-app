@@ -1,0 +1,5 @@
+# Database Configuration
+# Copy this file to config.properties and fill in your actual database credentials
+DB_URL=jdbc:postgresql://localhost:5432/localdb
+DB_USER=postgres
+DB_PASSWORD=

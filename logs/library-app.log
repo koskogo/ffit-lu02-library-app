@@ -1,0 +1,155 @@
+2025-09-16 14:29:14.644 [main] INFO  ch.bzz.LibraryAppMain - Starting LibraryApp
+2025-09-16 14:29:14.646 [main] DEBUG ch.bzz.LibraryAppMain - Executing command from arguments: listbooks
+2025-09-16 14:29:14.647 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks
+2025-09-16 14:29:14.647 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:29:14.648 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:29:14.648 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:29:14.668 [main] INFO  ch.bzz.Config - Successfully loaded configuration from: C:\ff\ffit-lu02-library-app\config.properties
+2025-09-16 14:29:14.887 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:29:14.887 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:29:14.911 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:29:14.911 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:29:14.911 [main] INFO  ch.bzz.LibraryAppMain - - Grundkurs Java by Dietmar Abts (2024)
+2025-09-16 14:29:14.911 [main] INFO  ch.bzz.LibraryAppMain - - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (2008)
+2025-09-16 14:29:14.911 [main] INFO  ch.bzz.LibraryAppMain - - Effective Java by Joshua Bloch (2017)
+2025-09-16 14:29:14.911 [main] INFO  ch.bzz.LibraryAppMain - - Spring in Action by Craig Walls (2019)
+2025-09-16 14:29:29.868 [main] INFO  ch.bzz.LibraryAppMain - Starting LibraryApp
+2025-09-16 14:29:29.870 [main] DEBUG ch.bzz.LibraryAppMain - Executing command from arguments: listbooks 2
+2025-09-16 14:29:29.873 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks 2
+2025-09-16 14:29:29.873 [main] DEBUG ch.bzz.LibraryAppMain - Listing books with limit: 2
+2025-09-16 14:29:29.873 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:29:29.874 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:29:29.876 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:29:29.878 [main] INFO  ch.bzz.Config - Successfully loaded configuration from: C:\ff\ffit-lu02-library-app\config.properties
+2025-09-16 14:29:30.001 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:29:30.001 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:29:30.016 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:29:30.017 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:29:30.017 [main] INFO  ch.bzz.LibraryAppMain - - Grundkurs Java by Dietmar Abts (2024)
+2025-09-16 14:29:30.017 [main] INFO  ch.bzz.LibraryAppMain - ... and 3 more books (showing first 2)
+2025-09-16 14:29:35.518 [main] INFO  ch.bzz.LibraryAppMain - Starting LibraryApp
+2025-09-16 14:29:35.522 [main] DEBUG ch.bzz.LibraryAppMain - Executing command from arguments: listbooks abc
+2025-09-16 14:29:35.524 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks abc
+2025-09-16 14:29:35.524 [main] WARN  ch.bzz.LibraryAppMain - Invalid limit parameter 'abc' for listbooks command, ignoring limit
+2025-09-16 14:29:35.524 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:29:35.526 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:29:35.526 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:29:35.528 [main] INFO  ch.bzz.Config - Successfully loaded configuration from: C:\ff\ffit-lu02-library-app\config.properties
+2025-09-16 14:29:35.634 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:29:35.634 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:29:35.648 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:29:35.648 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:29:35.648 [main] INFO  ch.bzz.LibraryAppMain - - Grundkurs Java by Dietmar Abts (2024)
+2025-09-16 14:29:35.648 [main] INFO  ch.bzz.LibraryAppMain - - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (2008)
+2025-09-16 14:29:35.648 [main] INFO  ch.bzz.LibraryAppMain - - Effective Java by Joshua Bloch (2017)
+2025-09-16 14:29:35.648 [main] INFO  ch.bzz.LibraryAppMain - - Spring in Action by Craig Walls (2019)
+2025-09-16 14:29:41.914 [main] INFO  ch.bzz.LibraryAppMain - Starting LibraryApp
+2025-09-16 14:29:41.916 [main] DEBUG ch.bzz.LibraryAppMain - Executing command from arguments: importbooks nonexistent.txt
+2025-09-16 14:29:41.917 [main] INFO  ch.bzz.io.BookImporter - Starting import from file: nonexistent.txt
+2025-09-16 14:29:41.918 [main] DEBUG ch.bzz.io.DelimitedFileReader - Reading books from file: nonexistent.txt
+2025-09-16 14:29:41.918 [main] ERROR ch.bzz.io.DelimitedFileReader - File not found: nonexistent.txt
+java.io.FileNotFoundException: nonexistent.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at ch.bzz.io.DelimitedFileReader.readBooksFromFile(DelimitedFileReader.java:17)
+	at ch.bzz.io.BookImporter.importBooksFromFile(BookImporter.java:16)
+	at ch.bzz.LibraryAppMain.main(LibraryAppMain.java:27)
+2025-09-16 14:29:41.919 [main] WARN  ch.bzz.io.BookImporter - No books found in file or file is empty: nonexistent.txt
+2025-09-16 14:36:47.895 [main] INFO  ch.bzz.LibraryAppMain - Starting LibraryApp
+2025-09-16 14:36:47.897 [main] DEBUG ch.bzz.LibraryAppMain - Executing command from arguments: listbooks 2
+2025-09-16 14:36:47.898 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks 2
+2025-09-16 14:36:47.898 [main] DEBUG ch.bzz.LibraryAppMain - Listing books with limit: 2
+2025-09-16 14:36:47.899 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:36:47.901 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:36:47.903 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:36:47.906 [main] INFO  ch.bzz.Config - Successfully loaded configuration from: C:\ff\ffit-lu02-library-app\config.properties
+2025-09-16 14:36:47.999 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:36:48.000 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:36:48.013 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:36:48.013 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:36:48.014 [main] INFO  ch.bzz.LibraryAppMain - - Grundkurs Java by Dietmar Abts (2024)
+2025-09-16 14:36:48.014 [main] INFO  ch.bzz.LibraryAppMain - ... and 3 more books (showing first 2)
+2025-09-16 14:36:54.242 [main] INFO  ch.bzz.LibraryAppMain - Starting LibraryApp
+2025-09-16 14:36:54.244 [main] DEBUG ch.bzz.LibraryAppMain - Executing command from arguments: listbooks 10
+2025-09-16 14:36:54.245 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks 10
+2025-09-16 14:36:54.246 [main] DEBUG ch.bzz.LibraryAppMain - Listing books with limit: 10
+2025-09-16 14:36:54.246 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:36:54.246 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:36:54.247 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:36:54.250 [main] INFO  ch.bzz.Config - Successfully loaded configuration from: C:\ff\ffit-lu02-library-app\config.properties
+2025-09-16 14:36:54.355 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:36:54.355 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:36:54.364 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:36:54.366 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:36:54.367 [main] INFO  ch.bzz.LibraryAppMain - - Grundkurs Java by Dietmar Abts (2024)
+2025-09-16 14:36:54.377 [main] INFO  ch.bzz.LibraryAppMain - - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (2008)
+2025-09-16 14:36:54.377 [main] INFO  ch.bzz.LibraryAppMain - - Effective Java by Joshua Bloch (2017)
+2025-09-16 14:36:54.377 [main] INFO  ch.bzz.LibraryAppMain - - Spring in Action by Craig Walls (2019)
+2025-09-16 14:37:09.929 [main] INFO  ch.bzz.LibraryAppMain - Starting LibraryApp
+2025-09-16 14:37:09.934 [main] DEBUG ch.bzz.LibraryAppMain - Executing command from arguments: listbooks abc
+2025-09-16 14:37:09.936 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks abc
+2025-09-16 14:37:09.936 [main] WARN  ch.bzz.LibraryAppMain - Invalid limit parameter 'abc' for listbooks command, ignoring limit
+2025-09-16 14:37:09.937 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:37:09.937 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:37:09.939 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:37:09.940 [main] INFO  ch.bzz.Config - Successfully loaded configuration from: C:\ff\ffit-lu02-library-app\config.properties
+2025-09-16 14:37:10.046 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:37:10.047 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:37:10.060 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:37:10.061 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:37:10.061 [main] INFO  ch.bzz.LibraryAppMain - - Grundkurs Java by Dietmar Abts (2024)
+2025-09-16 14:37:10.061 [main] INFO  ch.bzz.LibraryAppMain - - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (2008)
+2025-09-16 14:37:10.061 [main] INFO  ch.bzz.LibraryAppMain - - Effective Java by Joshua Bloch (2017)
+2025-09-16 14:37:10.061 [main] INFO  ch.bzz.LibraryAppMain - - Spring in Action by Craig Walls (2019)
+2025-09-16 14:37:46.436 [main] INFO  ch.bzz.LibraryAppMain - Starting LibraryApp
+2025-09-16 14:37:46.441 [main] INFO  ch.bzz.LibraryAppMain - Welcome to LibraryApp! Type 'help' for commands.
+2025-09-16 14:37:53.032 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks 1
+2025-09-16 14:37:53.033 [main] DEBUG ch.bzz.LibraryAppMain - Listing books with limit: 1
+2025-09-16 14:37:53.033 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:37:53.034 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:37:53.034 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:37:53.036 [main] INFO  ch.bzz.Config - Successfully loaded configuration from: C:\ff\ffit-lu02-library-app\config.properties
+2025-09-16 14:37:53.138 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:37:53.138 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:37:53.151 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:37:53.152 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:37:53.153 [main] INFO  ch.bzz.LibraryAppMain - ... and 4 more books (showing first 1)
+2025-09-16 14:37:59.402 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks
+2025-09-16 14:37:59.403 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:37:59.403 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:37:59.404 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:37:59.435 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:37:59.435 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:37:59.437 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:37:59.438 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:37:59.438 [main] INFO  ch.bzz.LibraryAppMain - - Grundkurs Java by Dietmar Abts (2024)
+2025-09-16 14:37:59.438 [main] INFO  ch.bzz.LibraryAppMain - - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (2008)
+2025-09-16 14:37:59.438 [main] INFO  ch.bzz.LibraryAppMain - - Effective Java by Joshua Bloch (2017)
+2025-09-16 14:37:59.439 [main] INFO  ch.bzz.LibraryAppMain - - Spring in Action by Craig Walls (2019)
+2025-09-16 14:38:04.753 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks 1
+2025-09-16 14:38:04.753 [main] DEBUG ch.bzz.LibraryAppMain - Listing books with limit: 1
+2025-09-16 14:38:04.753 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:38:04.753 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:38:04.754 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:38:04.781 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:38:04.782 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:38:04.784 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:38:04.784 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:38:04.784 [main] INFO  ch.bzz.LibraryAppMain - ... and 4 more books (showing first 1)
+2025-09-16 14:38:29.341 [main] DEBUG ch.bzz.LibraryAppMain - Executing command: listbooks 10
+2025-09-16 14:38:29.342 [main] DEBUG ch.bzz.LibraryAppMain - Listing books with limit: 10
+2025-09-16 14:38:29.343 [main] INFO  ch.bzz.LibraryAppMain - Books:
+2025-09-16 14:38:29.345 [main] DEBUG ch.bzz.db.BookPersistor - Loading books from database
+2025-09-16 14:38:29.345 [main] DEBUG ch.bzz.db.Database - Creating new database connection
+2025-09-16 14:38:29.371 [main] INFO  ch.bzz.db.Database - Database connection established successfully
+2025-09-16 14:38:29.372 [main] DEBUG ch.bzz.db.BookPersistor - Executing SQL: SELECT id, isbn, title, author, publication_year FROM books
+2025-09-16 14:38:29.373 [main] INFO  ch.bzz.db.BookPersistor - Successfully loaded 5 books from database
+2025-09-16 14:38:29.374 [main] INFO  ch.bzz.LibraryAppMain - - Java ist auch eine Insel by Christian Ullenboom (2023)
+2025-09-16 14:38:29.374 [main] INFO  ch.bzz.LibraryAppMain - - Grundkurs Java by Dietmar Abts (2024)
+2025-09-16 14:38:29.374 [main] INFO  ch.bzz.LibraryAppMain - - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (2008)
+2025-09-16 14:38:29.374 [main] INFO  ch.bzz.LibraryAppMain - - Effective Java by Joshua Bloch (2017)
+2025-09-16 14:38:29.375 [main] INFO  ch.bzz.LibraryAppMain - - Spring in Action by Craig Walls (2019)
+2025-09-16 14:38:39.628 [main] INFO  ch.bzz.LibraryAppMain - Exiting
